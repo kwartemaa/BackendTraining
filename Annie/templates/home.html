@@ -1,8 +1,11 @@
+
 {% extends 'base.html'%}
+{% load static %}
 
 {% block body %}
-<h1>Feel At Home</h1>
-<p>You're welcome to our home page</p>
-<h4>My name is {{name}}</h4>
-
+<div id="wrapper">
+  <header id="header">
+    <div id="logo"><img src="{% static 'images/beauty2.jpg' %}"width="900" height="500" alt=""/></div>
+  </header>
+    </div>
 {% endblock %}

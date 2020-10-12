@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %} {% endblock %}</title>
-    <link href="{% static 'bootstrap1/css1/styles.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
     {%include "navbar.html"%}
 
 </head>
 <body>
+<!--<div id="wrapper">
+  <header id="header">
+    <div id="logo"><img src="{% static 'images/beauty2.jpg' %}"width="900" height="500" alt=""/></div>
+  </header>
+    </div>-->
 {% block body%} {% endblock %}
+
 </body>
 </html>
